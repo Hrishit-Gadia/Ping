@@ -1,0 +1,13 @@
+#srt,#info
+{
+font-size: 20px;
+}
+.head{
+    width:100%;
+}
+.head h3{
+    display:inline;
+}
+.head button{
+    float: right;
+}
