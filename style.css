@@ -1,4 +1,4 @@
-#srt,#info
+#srt,#info,#rst
 {
 font-size: 20px;
 }
@@ -10,4 +10,17 @@ font-size: 20px;
 }
 .head button{
     float: right;
+}
+#canvas{
+    border-radius: 25px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    width: 750px;
+}
+h4 {
+    background-color: grey;
+    color: white;
+    margin: 0px;
+    line-height: 2;
 }

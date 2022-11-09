@@ -18,18 +18,24 @@
 
 <body background="background1.jpg">
   <center>
-    <div class="btn btn-success head">
+    <div class="btn btn-info head">
       <h3>AI Ping Pong Game</h3>
-      <button class="btn btn-info" data-toggle="modal" data-target="#mymodal">Instructions</button>
+      <button class="btn btn-primary" data-toggle="modal" data-target="#mymodal">Instructions</button>
     </div>
     <br><br>
     <button onclick="Start()" class="btn btn-warning" id="srt">
       Start Game
     </button>
     <br><br>
-    <button class="btn btn-info" id="info">
+    <button class="btn btn-default" id="info">
       Game Status
     </button>
+    <br><br>
+    <div id="canvas"></div>
+    <br><br>
+    <button class="btn btn-danger" onclick="reset()" id="rst">Reset</button>
+    <br><br>
+    <h4>Made By Hrishit Gadia</h4>
   </center>
   <div id="mymodal" class="modal fade">
     <div class="modal-dialog">
